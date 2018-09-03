@@ -13,6 +13,7 @@ class LineCounttTest {
 		int count;
 			@Test
 			void LineCounttest() {
+				File file = new File("C:\\Users\\msaimadh\\Downloads");
 				assertEquals(3,count);
 			}
 		}

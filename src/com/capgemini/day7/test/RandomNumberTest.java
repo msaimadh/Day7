@@ -17,11 +17,10 @@ class RandomNumberTest {
 	@Test
 	void testRandomNumber() {
 	Random rand = new Random();
-	File file = new File("C:\\filesfortest\\test.txt");{
+	File file = new File("C:\\madhu\\ben.txt");{
 	
 	try(PrintWriter print = new PrintWriter(file))
 	{
-		// Random rand = new Random();
 		for (int i = 0; i < 100; i++) {
 
 			print.println(rand.nextInt(50) + 1);
